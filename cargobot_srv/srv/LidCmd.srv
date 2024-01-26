@@ -1,0 +1,3 @@
+uint8 close_speed
+uint8 open_speed
+uint16 threshold  # mA

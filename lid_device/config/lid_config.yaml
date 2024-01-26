@@ -1,0 +1,4 @@
+close_speed: 180
+open_speed: 200
+speed : 200 # range [0,255]
+threshold : 570 # mA

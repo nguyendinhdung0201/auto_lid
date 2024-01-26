@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nguyendinhdung/catkin_ws_new/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/nguyendinhdung/catkin_ws_new/src/esp32_lid_CAN/include/**",
+        "/home/nguyendinhdung/catkin_ws_new/src/script/lid_control_esp32/include/**",
+        "/home/nguyendinhdung/catkin_ws_new/src/server_and_client/include/**",
+        "/home/nguyendinhdung/catkin_ws_new/src/script/tutorial_5/include/**",
+        "/home/nguyendinhdung/catkin_ws_new/src/script/tutorial_custom_msg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

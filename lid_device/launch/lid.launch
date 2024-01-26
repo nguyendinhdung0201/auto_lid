@@ -1,0 +1,5 @@
+<launch>
+    <node name= "lid" pkg="lid_device" type="lid_device.py" output="screen">
+        <rosparam command="load" file="$(find lid_device)/config/lid_config.yaml" />
+    </node>
+</launch>

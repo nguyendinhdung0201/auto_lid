@@ -100,10 +100,10 @@ class LidDevice:
             except can.CanError:
                 rospy.logwarn('Error receive CAN data')
 if __name__ == "__main__":
-    try:
+    # try:
         a = LidDevice()
         a.main()
-    except Exception as e:
-        pass
+    # except Exception as e:
+    #     pass
 
 
